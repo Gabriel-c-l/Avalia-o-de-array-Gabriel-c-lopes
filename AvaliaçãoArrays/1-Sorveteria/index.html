@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Bem vindo a sorveteria do Senai</h1>
+        <div>
+            <label for="add">Adicionar um sabor</label>
+            <input type="text" id="add">
+            <button onclick="add()">Adicionar</button>
+        </div>
+    
+        <div>
+            <label for="remove">Remover um sorvete</label>
+            <input type="text" id="remove">
+            <button onclick="remove()">Remover sabor</button>
+        </div>
+    
+        <div>
+            <h2>Ver lista de sabores</h2>
+            <button onclick="look()">Lista</button>
+            <div id="alerta"></div>
+            <div id="resultado"></div>
+        </div>
+    
+        <div>
+            <h2>Finalizar pedido</h2>
+            <button onclick="fecharPedido()">Finalizar</button>
+            <div id="carrinho"></div>
+        </div>
+    </main>
+    <script src="./atividade.js"></script>
+</body>
+</html>
+
